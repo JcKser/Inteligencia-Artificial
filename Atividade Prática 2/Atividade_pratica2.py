@@ -106,9 +106,6 @@ def jogar(labirinto, posicao):
         time.sleep(0.2)  # Pequeno atraso para suavizar a execução
 
 
-# Método de busca em profundidade
-import tracemalloc
-
 def busca_profundidade(labirinto, inicio, objetivo):
     """Busca em profundidade no labirinto com métricas reais de memória."""
     tracemalloc.start()  # Inicia o monitoramento de memória
